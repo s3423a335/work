@@ -39,7 +39,9 @@ c註解
 / return 0; 程式結束
 
 JAVA註解
-
+/ public宣告類別或方法為公開存取 
+/ class 定義類別的關鍵字
+/main這是一個方法的名稱 (String[] args)宣告方法的參數為字串陣列，參數名稱為args 
 
 
 
