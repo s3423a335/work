@@ -1,0 +1,58 @@
+溫度轉換
+
+c
+===============================================================
+printf("現在溫度單位? 攝氏=1 華氏=2\n");
+    int a;
+    float n;
+	scanf("%d",&a);
+	if(a !=1 && a !=2){
+		printf("Error");
+	} else {
+		printf("請輸入溫度\n");
+		
+		scanf("%f",&n);
+		if (a == 1){
+		printf("攝氏%f=華式%f",n,(n*9/5+32));	
+		} else {
+		printf("華氏%f=攝式%f",n,(n - 32)*5/9);	
+		}
+	} 
+return 0;
+===============================================================
+c++
+===============================================================
+double a, n;
+	cout << "現在溫度單位? 攝氏 = 1, 華氏 = 2\n";
+	cin >> a;
+	if(a != 1 && a != 2 )
+		cout << "ERROR!";
+	else {
+		cout << "溫度 : ";
+		cin >> n; 
+		if(a == 1)
+			cout << "華氏 = " << (n * 9/5 + 32);
+		else
+			cout << "攝氏 = " << (n - 32)*5/9;
+	}
+	return 0;
+
+================================================================
+java
+================================================================
+
+System.out.println("現在溫度單位? 攝氏=1 華氏=2");
+	Scanner input = new Scanner(System.in);
+	int a = input.nextInt();
+	if(a !=1 && a !=2){
+		System.out.println("Error");
+	} else {
+		System.out.println("請輸入溫度");
+		
+		Float n = input.nextFloat();
+		if (a == 1){
+		System.out.println("攝氏"+n+" = "+"華式"+(n*9/5+32));	
+		} else {
+			System.out.println("華氏"+n+" = "+"攝式"+(n - 32)*5/9);	
+		}
+	} 
