@@ -1,0 +1,81 @@
+成績判定
+
+c
+========================================
+printf("請輸入成績");
+	    int a;
+		scanf("%d",&a);
+		if(a>=90 && a<=100){
+			printf("good");
+		}
+		else if (a>=80 && a<90) {
+			printf("ok");
+		}
+		else if (a>=70 && a<80) {
+			printf("soso");
+		}
+		else if (a>=60 && a<70) {
+			printf("safe");
+		}
+		else if (a<60 && a>0) {
+			printf("GG");
+		}
+		else if (a>100 || a<0) {
+			printf("error");
+		}            
+
+========================================
+c++
+========================================
+cout <<"請輸入成績\n";
+	    int a;
+		cin >> a; 
+		if(a>=90 && a<=100){
+			cout << "good";
+		}
+		else if (a>=80 && a<90) {
+			cout << "ok";
+		}
+		else if (a>=70 && a<80) {
+			cout << "soso";
+		}
+		else if (a>=60 && a<70) {
+			cout << "safe";
+		}
+		else if (a<60 && a>0) {
+			cout << "GG";
+		}
+		else if (a>100 || a<0) {
+			cout << "error";
+		}
+		return 0;
+
+
+
+========================================
+java
+========================================
+
+       System.out.println("請輸入成績");
+		Scanner input = new Scanner(System.in);
+		int a = input.nextInt();
+		if(a>=90 && a<=100){
+			System.out.println("good");
+		}
+		else if (a>=80 && a<90) {
+			System.out.println("ok");
+		}
+		else if (a>=70 && a<80) {
+			System.out.println("soso");
+		}
+		else if (a>=60 && a<70) {
+			System.out.println("safe");
+		}
+		else if (a<60 && a>0) {
+			System.out.println("GG");
+		}
+		else if (a>100 || a<0) {
+			System.out.println("error");
+		}
+    
+    
