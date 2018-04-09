@@ -1,0 +1,39 @@
+ 1+2+3+...+n
+
+c
+========================================
+
+printf("輸入一個數\n");
+		int sum = 0;
+		int n;
+		scanf("%d",&n);
+		for(int a=1;a<=n;a++){
+			sum+=a;
+		}
+		printf("累加數=%d",sum);  
+
+========================================
+c++
+========================================
+
+cout <<"輸入一個數\n";
+		int sum = 0;
+		int n;
+		cin >> n;
+		for(int a=1;a<=n;a++){
+			sum+=a;
+		}
+		cout << "累加數=" << sum;
+		return 0; 
+
+========================================
+java
+========================================
+  System.out.println("輸入一個數");
+		Scanner input = new Scanner(System.in);
+		int sum = 0;
+		int n = input.nextInt();
+		for(int a=1;a<=n;a++){
+			sum+=a;
+		}
+		System.out.println("累加數="+sum);
